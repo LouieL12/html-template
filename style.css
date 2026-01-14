@@ -7,7 +7,7 @@ body, html {
 /* HEADER */
 .header {
     width: 100%;
-    background: purple;
+    background: red;
     background: linear-gradient(90deg, #06165f 0%, #3c00bc 100%);
 }
 
