@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Starter Project</title>
+</head>
+<body>
+    <!-- Header -->
+     <header class="header">
+        <h2 class="header__logo">queryBase</h2>
+        <div class="header__btnGrp">
+            <button class="header__btnGrp--submit">Submit a request</button>
+            <button class="'header__btnGrp--signIn">Sign In</button>
+        </div>
+     </header>
+    <!-- Search Section -->
+     <main class="main-contain">
+     <section class="search">
+        <h1 class="search__title">How can we help?</h1>
+        <div class="search__wrapper">
+            <input class="search__input" placeholder="Search" />
+            <span class="search__searchIcon">&#128269;</span>
+        <div>
+     </div>
+
+    <!-- FAQ Section -->
+     <section class="faq">
+        <ul class="faq__list">
+            <li class="faq__list-item">
+                <div class="faq__list-item-image">
+                    <img height="40" src="/images/branch.png" />
+                </div>
+                <div class="faq__card">
+                    <h3 class="faq__card-title">Branches</h3>
+                    <p class="faq__card-text">QueryBase Branches lets you manage, version, and document your designs in one place.
+                    <a class="faq__card-link" href="">Learn More </a>    
+                </div>
+            </li>
+            <li class="faq__list-item">
+                <div class="faq__list-item-image">
+                    <img height="40" src="/images/user.png" />
+                </div>
+                <div class="faq__card">
+                    <h3 class="faq__card-title">Manage your account</h3>
+                    <p class="faq__card-text">Configure your account settings, such as your email, profile details, and password.
+                    <a class="faq__card-link" href="">Learn More </a>    
+                </div>
+            </li>
+            <li class="faq__list-item">
+                <div class="faq__list-item-image">
+                    <img height="40" src="/images/management.png" />
+                </div>
+                <div class="faq__card">
+                    <h3 class="faq__card-title">Manage organizations, teams, and projects</h3>
+                    <p class="faq__card-text">Use QueryBase organizations, teams, and projects to organize your people and your work.
+                    <a class="faq__card-link" href="">Learn More </a>    
+                </div>
+            </li>   
+            <li class="faq__list-item">
+                <div class="faq__list-item-image">
+                    <img height="40" src="/images/bill.png" />
+                </div>
+                <div class="faq__card">
+                    <h3 class="faq__card-title">Manage billing </h3>
+                    <p class="faq__card-text"> Change subscriptions and payment details.
+                    <a class="faq__card-link" href="">Learn More </a>    
+                </div>
+            </li>     
+            <li class="faq__list-item">
+                <div class="faq__list-item-image">
+                    <img height="40" src="/images/verified.png" />
+                </div>
+                <div class="faq__card">
+                    <h3 class="faq__card-title">Authenticate to QueryBase</h3>
+                    <p class="faq__card-text">Set up and configure SSO, SCIM, and Just-in-Time provisioning.
+                    <a class="faq__card-link" href="">Learn More </a>    
+                </div>
+            </li>
+            </li class="faq__list-item">
+                <div class="faq__list-item-image">
+                    <img height="40" src="/images/customer-support.png" />
+                </div>
+                <div class="faq__card">
+                    <h3 class="faq__card-title">QueryBase Support</h3>
+                    <p class="faq__card-text">Get in touch with a human.</p>
+                    <a class="faq__card-link" href="">Learn More </a>
+                </div>
+            <li>
+        </ul>
+     </section>
+    </main>
+    <!--Footer -->
+     <footer class="footer">
+    <div class="footer__content">
+        <div class="footer__column">
+           <h3 class="footer_title">QueryBase</h3>
+           <p class="footer__link">Branches</p>
+        </div>
+    </div class="footer__column">
+         <h3 class="footer__title">Resources</h3>
+         <p class="footer__link">Blog</p>
+         <p class="footer__link">Help Center</p>
+         <p class="footer__link">Release Notes</p>
+         <p class="footer__link">Status</p>
+    </div>
+</div class="footer colmun">
+      <h3 class="footer__title">Community</h3>
+      <p class="footer__title">Twitter</p>
+      <p class="footer__title">LinkedIn</p>
+      <p class="footer__title">Facebook</p>
+      <p class="footer__title">Dribbble</p>
+</div class="footer colmun">
+      <h3 class="footer__title">Company</h3>
+      <p class="footer__title">About Us</p>
+      <p class="footer__title">Careers</p>
+      <p class="footer__title">Legal</p>
+      <p class="footer__title">Contact Us</p>
+      <p class="footer__link">info@querybase.com</p>
+</div>
+      
+</footer>
+</body>
+</html>
